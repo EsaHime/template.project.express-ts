@@ -1,0 +1,32 @@
+{
+  "name": "esahime_project_name",
+  "version": "1.0.0",
+  "private": true,
+  "description": "esahime_description",
+  "scripts": {
+    "dev": "vite",
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@lancercomet/eslint-config-eslint-rules": "^0.2.0",
+    "@rollup/plugin-commonjs": "^28.0.0",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-typescript": "^12.1.0",
+    "@swc/core": "^1.7.26",
+    "@types/express": "^4.17.21",
+    "dotenv": "^16.4.5",
+    "rollup": "^4.22.4",
+    "rollup-plugin-ignore": "^1.0.10",
+    "tslib": "^2.7.0",
+    "typescript": "^5.6.2",
+    "vite": "^4.5.5",
+    "vite-plugin-node": "^3.1.0"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
