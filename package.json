@@ -18,7 +18,9 @@
     "@rollup/plugin-typescript": "^12.1.0",
     "@swc/core": "^1.7.26",
     "@types/express": "^4.17.21",
+    "@types/express-session": "^1.18.0",
     "dotenv": "^16.4.5",
+    "pug": "^3.0.3",
     "rollup": "^4.22.4",
     "rollup-plugin-ignore": "^1.0.10",
     "tslib": "^2.7.0",
@@ -27,6 +29,7 @@
     "vite-plugin-node": "^3.1.0"
   },
   "dependencies": {
-    "express": "^4.21.0"
+    "express": "^4.21.0",
+    "express-session": "^1.18.0"
   }
 }
